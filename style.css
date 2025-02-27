@@ -4,8 +4,24 @@
     font-size: 18px;
 }
 
-.body {
+.container {
     text-align: center;
+    box-sizing: border-box;
+    padding: 25px 10px 15px;
+}
+
+.title-container {
+    width: 500px;
+    height: auto;
+    margin: 0 auto 40px;
+}
+
+.body-container {
+    width: 450px;
+    height: auto;
+    text-align: left;
+    margin: 0 auto;
+
 }
 
 ul,
@@ -26,6 +42,8 @@ h2 {
 
 h3 {
     font-size: 22px;
+    margin: 10px auto 0;
+    padding-left: 25px;
 }
 
 a{
@@ -34,6 +52,17 @@ a{
     font-size: 25px;
 }
 
-a:hover {
-    color: hotpink;
+a:hover.button {
+    color: rgb(174, 209, 209);
+    background-color: rgb(128, 155, 155);
   }
+
+.Recipe {
+    list-style-type: none;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 1px 8px;
+
+}
